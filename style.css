@@ -54,9 +54,25 @@ body{
     display: block;
 }
 
-.ativo{
+.botao .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+    .aba-conteudo .ativo{
+        display: none;
+    }
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-aling: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-aling: center;
+    color:
 }
 @media screen and (min-width: 768px) {
 .botao :first-child{
